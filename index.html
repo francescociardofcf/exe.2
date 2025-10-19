@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time and Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="smartphone-mockup">
+      <div class="container"></div>
+      <div class="container">Motorola</div>
+      <div class="smartphone-screen">
+        <div class="flex" type="nav-bar">
+          <div class="nav-icons">
+            <i class="fas fa-plane"></i>
+            <div class="icons" type="right-icons">
+              <i class="fas fa-signal"></i>
+             <i class="fas fa-battery-half"></i>
+            </div>     
+          </div>
+      </div>        
+
+      <div class="city-selection" type="city-select">   
+        <select id="city-select" class="form-control"> 
+          <option value="rome">ROME, Italy, CET</option>
+          <option value="paris">PARIS, France, CET</option>
+          <option value="new-york">NEW YORK, USA, EST</option>
+        </select>
+      </div> 
+      <div class="weather-widget"> 
+        <i class="fas fa-sun"></i>
+        <p>Sunny, 25°C</p>              
+      </div>
+      <div class="clock-widget"> 
+        <i class="fas fa-clock"></i>
+        <p>12:00 PM</p>
+        <div class="date">April 27, 2024</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

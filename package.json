@@ -1,0 +1,28 @@
+{
+  "name": "lecce",
+  "version": "1.0.0",
+  "local_names": { 
+    "ru": "Лечче",
+    "zh": "萊切",
+    "el": "Λέτσε",
+    "la": "Lupiae",
+    "fa": "لچه",
+    "ar": "لتشه",
+    "ja": "レッチェ",
+    "ur": "لیچہ",
+    "ml": "ലെച്ചെ",
+    "it": "Lecce",
+    "mk": "Лече"
+  },
+  "lat": 40.3570373,
+  "lon": 18.1718482,
+  "country": "IT",
+  "state": "Apulia",
+  "homepage": "https://en.wikipedia.org/wiki/Lecce",
+  "keywords": ["Italy", "city", "Apulia", "Lecce"],
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.9.4"
+  }
+}

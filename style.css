@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #7fd70d;
+    background-color: #f4efeffe;
+}
+
+.container {
+    
+
+    position: relative;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: initial;
+  align-items: center;
+  width: auto;
+  height: auto;
+
+
+
+}
+
+.icons i {
+   container-type:normal;
+   justify-self:left;
+   margin-right: 8px;
+   align-self: auto;
+    margin-left: 23px;
+    font-size: 14px;
+    font-synthesis: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    color: #000000;
+    margin-top: 34px;
+}   
+
+
+
+
+
+.smartphone-mockup {
+    width: 360px;
+    height: 640px;
+    margin: 0 auto;
+    background: #2a262699;
+    border-radius: 30px;
+                   
+}
+ 
+.clock-widget {
+    text-align: auto;
+    display: block;
+    margin: 20px auto;
+}   
+
+.weather-widget {
+    text-align: auto;
+    display: block;
+    margin: 20px auto;
+}   
+
+.smartphone-screen {
+    width: 320px; 
+    height: 580px;     
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    overflow: hidden;
+}
+      
